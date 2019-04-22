@@ -1,0 +1,20 @@
+server:
+  port: 8083
+
+spring:
+  #应用名称
+  application:
+    name: demo-consumer
+
+dubbo:
+  application:
+    name: demo-consumer
+    qos-enable: false
+  registry:
+    address: nacos://10.26.15.26:8848
+  scan:
+    base-packages: com.demo.democonsumer
+
+nacos:
+  config:
+    server-addr: 10.26.15.26:8848

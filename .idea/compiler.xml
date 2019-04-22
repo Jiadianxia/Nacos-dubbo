@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo-api" />
+        <module name="demo-consumer" />
+        <module name="demo-provider" />
+        <module name="dubboProvide-ConsumerTest" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo-api" target="1.7" />
+      <module name="demo-consumer" target="1.8" />
+      <module name="demo-provider" target="1.8" />
+      <module name="demo-provider2" target="1.8" />
+      <module name="dubboProvide-ConsumerTest" target="1.8" />
+      <module name="dubboProvideTest" target="1.8" />
+      <module name="testConsumer" target="1.8" />
+      <module name="testProvide" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
